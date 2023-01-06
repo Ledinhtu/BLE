@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T15:49:40.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="YjLaBBF0uE_YCmevviaT" version="20.8.1" type="github"><diagram id="5WGJPJ9PN9hEiIK1iL1-" name="Trang-1">3VfbcpswEP0aHjvDve5j7JKmHTfO2J6mrzJsQK2QGCF86ddXAgHG2I4744aMX0A6u0LS2aNlZTiTdPuFoyz5ziIghm1GW8P5bNi2ZXqmfClkVyHeyKqAmONIO7XAAv+BeqRGCxxB3nEUjBGBsy4YMkohFB0Mcc42XbcXRrqzZiiGHrAIEemjzzgSSYWO7I8t/gA4TuqZLf9TZUlR7ax3kicoYps9yAkMZ8IZE1Ur3U6AKPJqXqpx9yeszcI4UHHJABE42H2KH/Jo9nN+vzT9xbfVB6f6yhqRQm9YL1bsagYgkoToLuMiYTGjiAQtOuasoBGoaUzZa32mjGUStCT4C4TY6eiiQjAJJSIl2lrNqSY6uTcN5azgIZzZUK0RxGMQZ/zsJgJSusBSEHwnx3EgSOB1dx1Iayhu/FqaZUMz/Q+sWz3WMcVCIo8/Fj3+W3YVVZsEC1hkqCRhI8/cMSbXwAVsz3PZ37se4LhasPrE1t1NK3+r1nSyJ/36pF+dLf/WNGpfqFF3SI3apzQ6mT0u57PpNJgbtk/k+scrLluxalXeMtvDCyqkzfZRqhRKV3nWcPiOtN0I+TVx+/9L3JZ7a+p2L1S3NWgK7tMOFK0IHAjcxFQ+xtNA/dFlcTO8gh2vo+CmUNpXsPOmCvZuTcHWpQnacgatIk6m6LEEIs5wGQQU/h5etQd51zmm2rfNu/3Kt0kA754+d/jfVr8oq1mLWtrkUb7r1wDyrpamjFZlglIsZjRXzrYy3j19zcuLGleRWKp8TFCe47D5UPUsc/JBXOQVK1PNjLMQ8vz12KzkMuMymrNCEEzhejHz/APJe0diNrpOzGS3vUeWtr3buBP8BQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-06T16:09:34.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="C15qo51zakW3U9JYo9Md" version="20.8.1" type="github">
+  <diagram id="5WGJPJ9PN9hEiIK1iL1-" name="Trang-1">
+    <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tE3i4PgHsdOXRFT06SJb-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tE3i4PgHsdOXRFT06SJb-1" target="tE3i4PgHsdOXRFT06SJb-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tE3i4PgHsdOXRFT06SJb-1" value="init NVS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tE3i4PgHsdOXRFT06SJb-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tE3i4PgHsdOXRFT06SJb-2" target="tE3i4PgHsdOXRFT06SJb-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tE3i4PgHsdOXRFT06SJb-2" value="init CONTROLLER&lt;br&gt;value default&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tE3i4PgHsdOXRFT06SJb-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tE3i4PgHsdOXRFT06SJb-4" target="tE3i4PgHsdOXRFT06SJb-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tE3i4PgHsdOXRFT06SJb-4" value="enable CONTROLLER in BLE mode" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="210" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tE3i4PgHsdOXRFT06SJb-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tE3i4PgHsdOXRFT06SJb-12" target="tE3i4PgHsdOXRFT06SJb-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tE3i4PgHsdOXRFT06SJb-12" value="init Bluedroi stack" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tE3i4PgHsdOXRFT06SJb-13" target="zCq8DhJdXFzrdfrmIdEc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tE3i4PgHsdOXRFT06SJb-13" value="enable Bluedroi stack" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tE3i4PgHsdOXRFT06SJb-16" value="Bluedroid stack :&amp;nbsp; common definitions + APIs for BT Classic&amp;amp;BLE" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zCq8DhJdXFzrdfrmIdEc-2" target="zCq8DhJdXFzrdfrmIdEc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-2" value="register GAP event handlers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zCq8DhJdXFzrdfrmIdEc-5" target="zCq8DhJdXFzrdfrmIdEc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-5" value="register GATT event handlers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zCq8DhJdXFzrdfrmIdEc-7" target="zCq8DhJdXFzrdfrmIdEc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-7" value="register Application Profile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-9" value="set the maximum supported MTU size" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
