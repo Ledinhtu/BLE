@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-07T04:26:32.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="tOF4kwaUfuEVFg-Mykmd" version="20.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-07T04:43:28.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="-iEb84V5mqJH9mUEuMo-" version="20.8.1" type="github">
   <diagram id="5WGJPJ9PN9hEiIK1iL1-" name="Trang-1">
     <mxGraphModel dx="1313" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -193,6 +193,15 @@
         </mxCell>
         <mxCell id="zCq8DhJdXFzrdfrmIdEc-82" value="connect opened" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#6666FF;" vertex="1" parent="1">
           <mxGeometry x="2810" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-83" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#4A80FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#CC0000;fontStyle=0;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zCq8DhJdXFzrdfrmIdEc-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="1170.0000000000002" as="sourcePoint" />
+            <mxPoint x="630" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-85" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#cc0000&quot;&gt;ESP_GATTC_CONNECT_EVT&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1130" width="193.34" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
