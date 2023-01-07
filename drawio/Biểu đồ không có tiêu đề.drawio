@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-07T04:43:28.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="-iEb84V5mqJH9mUEuMo-" version="20.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-07T07:18:46.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="xckKlAr1DUw4C_JTN0PF" version="20.8.1" type="github">
   <diagram id="5WGJPJ9PN9hEiIK1iL1-" name="Trang-1">
-    <mxGraphModel dx="1313" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,29 +179,43 @@
         <mxCell id="zCq8DhJdXFzrdfrmIdEc-74" value="&lt;font color=&quot;#000000&quot;&gt;case &lt;/font&gt;ESP_GAP_BLE_SCAN&lt;br&gt;_RESULT_EVT:" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=none;fontSize=11;fontColor=#007FFF;direction=west;base=40;size=20;position=0.94;position2=1;" vertex="1" parent="1">
           <mxGeometry x="1860" y="550" width="180" height="115" as="geometry" />
         </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-92" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CC0000;fontSize=11;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zCq8DhJdXFzrdfrmIdEc-78" target="zCq8DhJdXFzrdfrmIdEc-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2820" y="235" />
+              <mxPoint x="2820" y="850" />
+              <mxPoint x="1220" y="850" />
+              <mxPoint x="1220" y="840" />
+              <mxPoint x="1120" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zCq8DhJdXFzrdfrmIdEc-78" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;switch (scan_result-&amp;gt;scan_rst.search_evt)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;case ESP_GAP_SEARCH_INQ_RES_EVT:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;ESP_LOG...&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;esp_ble_gap_stop_scanning();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;esp_ble_gattc_open(...);&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2540" y="180" width="260" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="zCq8DhJdXFzrdfrmIdEc-80" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;&lt;i&gt;ESP_GATTC&lt;br&gt;_CONNECT_EVT&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#6666FF;" vertex="1" parent="1">
-          <mxGeometry x="2940" y="195" width="140" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="zCq8DhJdXFzrdfrmIdEc-81" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#4A80FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#CC0000;fontStyle=0;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zCq8DhJdXFzrdfrmIdEc-80">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2800" y="239.5" as="sourcePoint" />
-            <mxPoint x="2880" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zCq8DhJdXFzrdfrmIdEc-82" value="connect opened" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#6666FF;" vertex="1" parent="1">
-          <mxGeometry x="2810" y="210" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="zCq8DhJdXFzrdfrmIdEc-83" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#4A80FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#CC0000;fontStyle=0;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zCq8DhJdXFzrdfrmIdEc-85">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="1170.0000000000002" as="sourcePoint" />
-            <mxPoint x="630" y="1170" as="targetPoint" />
+            <mxPoint x="536.66" y="1210.0000000000002" as="sourcePoint" />
+            <mxPoint x="706.66" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zCq8DhJdXFzrdfrmIdEc-85" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#cc0000&quot;&gt;ESP_GATTC_CONNECT_EVT&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#6666FF;" vertex="1" parent="1">
-          <mxGeometry x="590" y="1130" width="193.34" height="80" as="geometry" />
+          <mxGeometry x="766.66" y="1170" width="193.34" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-86" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#4A80FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#CC0000;fontStyle=0;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zCq8DhJdXFzrdfrmIdEc-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="446.66" y="1300.0000000000002" as="sourcePoint" />
+            <mxPoint x="616.66" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-87" value="&lt;i style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#cc0000&quot;&gt;ESP_GATTC_OPEN_EVT&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="576.66" y="1260" width="193.34" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-88" value="After opening the connection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1170" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zCq8DhJdXFzrdfrmIdEc-90" value="the client opens a virtual connection to the server,&amp;nbsp;returns a connection ID.&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=none;fontSize=11;fontColor=#000000;direction=west;base=21;size=20;position=0.82;position2=0.76;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="290" width="170" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
